@@ -8,5 +8,5 @@ const json = JSON.parse(
 );
 
 const result = sort(json.data);
-let output = JSON.stringify(result, null, 2);
+let output = JSON.stringify(result, null, 4);
 fs.writeFileSync('output.json', output);
